@@ -40,9 +40,7 @@ El bot realiza una consulta desatendida de procesos judiciales siguiendo una ló
    |
 [FIN]
 
----
-
-3. Configuración y Ejecución
+## 3. Configuración y Ejecución
 Requisitos Previos
 Navegador: Preferiblemente Google Chrome.
 
@@ -64,14 +62,14 @@ Variables de Configuración
 
 %EmailDestino%: Destinatario del informe (jhrey@tcc.com.co).
 
-4. Decisiones Técnicas Clave
+## 4. Decisiones Técnicas Clave
 Estrategia 6to Resultado: Se omitió el uso de IDs estáticos. Se configuró un selector dinámico usando el atributo Ordinal: 5 (índice base 0) para garantizar que el bot siempre capture el sexto registro independientemente de la radicación.
 
 Extracción del Nombre: Se implementó una división de texto (Split) por "Nueva Línea" para tomar solo el primer renglón del cuerpo del correo, ignorando firmas automáticas de dispositivos móviles y optimizando la búsqueda.
 
 Descarga del Archivo: Se configuró una espera de UI para asegurar que el botón "Descargar DOC" esté totalmente disponible y cargado antes de la interacción, evitando errores por latencia de la página.
 
-5. Limitaciones y Trabajo Pendiente
+## 5. Limitaciones y Trabajo Pendiente
 Limitación Actual: El bot procesa solo el primer correo no leído por ejecución.
 
 Mejora Futura: Implementar un bucle (Loop) para procesar múltiples correos en una sola ejecución y agregar un sistema de logs en base de datos para trazabilidad histórica.
