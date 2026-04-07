@@ -4,7 +4,7 @@ Automatización para la consulta de procesos en la Rama Judicial de Colombia.
 
 ## Información del Candidato
 * **Nombre:** Jose Alejandro De la Rosa David
-* **Rol:** Tecnólogo en Análisis y Desarrollo de Software con Tarjeta COPNIA / Estudiante de Ingeniería de Sistemas de 5to Semestre (UdeA)
+* **Rol:** Tecnólogo en Análisis y Desarrollo de Software con Tarjeta COPNIA / Estudiante de Ingeniería de Sistemas de 5to Semestre 
 * **Herramienta:** Power Automate Desktop (Versión usada 11.2603.154.0)
 
 ---
